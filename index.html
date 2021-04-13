@@ -11,7 +11,82 @@
     <title>Bootstrap Layout E01</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header class="mb-5">
+      <div class="container">
+        <h1 hidden>Bootstrap Layout E01</h1>
+        <!-- I know this is not the best way to hide the h1, but it does the job for the outliner. I was not able to use the classes sr-only sr-only-focusable -->
+        <nav class="navbar">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Location</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="container mb-5">
+        <div class="card text-white bg-dark ">
+          <div class="card-body">
+            <h2 class="text-uppercase">Header Banner Area</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reiciendis ab aliquid maxime? Quae assumenda fugiat omnis a, odit, libero vel voluptatum tenetur sint consequuntur architecto adipisci. Magni, voluptatem reiciendis.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-4">
+            <div>
+              <form class="p-3 text-white bg-primary">
+                <h2>Sign In</h2>
+                <div class="form-group mb-2">
+                  <label for="email">Your Email</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group mb-2">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password">
+                </div>
+                <div class="form-group form-check mb-2">
+                  <input type="checkbox" class="form-check-input" id="pw-save">
+                  <label class="form-check-label" for="pw-save">Save Password</label>
+                </div>
+                <button type="submit" class="btn btn-light">Login</button>
+              </form>
+
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div>
+              <h2>Heading</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolorem, minima obcaecati eveniet, omnis, expedita neque architecto deserunt voluptas sunt quas magni voluptatem quos quibusdam sit necessitatibus in ad nesciunt!</p>
+              <a class="btn btn-primary" href="#">View More</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div>
+              <h2>Heading</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, accusamus! Itaque delectus labore accusamus natus magni consequatur, odit numquam dolorum quas totam quia quaerat quisquam possimus eum unde, incidunt molestias?</p>
+              <a class="btn btn-primary" href="#">View More</a>
+            </div>
+          </div>
+        </div>
+
+        
+
+        
+      </div>
+    </section>
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
